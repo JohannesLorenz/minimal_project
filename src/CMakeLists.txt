@@ -1,18 +1,13 @@
-#add_subdirectory(math)
-#add_subdirectory(core)
-#add_subdirectory(algo)
-#add_subdirectory(ca)
-#add_subdirectory(io)
-#add_subdirectory(rotor)
+set(src_dir "${CMAKE_CURRENT_SOURCE_DIR}")
 
-#if(BUILD_QT_GUI)
-#	add_subdirectory(gui_qt)
-#endif(BUILD_QT_GUI)
+file(GLOB main_src ${src_dir}/*.cpp)
+file(GLOB main_hdr ${src_dir}/*.h)
 
-#if(BUILD_USR_DIR)
-#	add_subdirectory(usr)
-#endif(BUILD_USR_DIR)
+add_executable(main-bin ${main_src} ${main_hdr})
+set_target_properties(main-bin
+        PROPERTIES OUTPUT_NAME main)
 
-#cp_script(test.sh)
+#target_link_libraries(main-bin main threadpool ${AUDIO_LIBRARIES})
 
-#add_subdirectory(tsa)
+install(TARGETS main-bin
+        RUNTIME DESTINATION bin)

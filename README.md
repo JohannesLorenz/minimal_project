@@ -34,7 +34,7 @@ Please see the LICENSE.txt file.
 5 Installation & Debugging
 ::::::::::::::::::::::::::
 
-Please see the INSTALL.txt file.
+Please see the INSTALL.md file.
 
 6 Examples
 ::::::::::
