@@ -1,63 +1,43 @@
-0 Greetings
-:::::::::::
-
+# Greetings
 Welcome! Thank you for considering the README file.
 
-CONTENTS
+**Contents**
+  1. What is PROJECTNAME?
+  2. Why using PROJECTNAME?
+  3. Documentation
+  4. Credits
+  5. Contact
+  6. Enclosed documents
 
-1 What is ...?
-2 Why using ...?
-3 License
-4 Documentation
-5 Installation & Debugging
-6 Examples
-7 Thanks to
-8 Links
-9 Contact
+# 1 What is PROJECTNAME?
+It is ...
 
-1 What is ...?
-::::::::::::::::::::::::::::
+In the future, you will be able to ...
 
-2 Why using ...?
-::::::::::::::::::::::::::::::
+# 2 Why using PROJECTNAME?
+PROJECTNAME is:
+  * ...
+  * ...
 
-Reaons for using it include the following.
+# 3 Documentation
+Type `make doc` for doxygen. TODO: more stuff here...
 
-3 License
-:::::::::
+# 4 Credits
+The author thanks:
+  * [Someone](http://some-website.com/) from
+    [Some project](http://some-project.net/) for a lot of very
+    helpful support, especially with ...
 
-Please see the LICENSE.txt file.
-
-4 Documentation
-:::::::::::::::
-
-5 Installation & Debugging
-::::::::::::::::::::::::::
-
-Please see the INSTALL.md file.
-
-6 Examples
-::::::::::
-
-7 Thanks to
-:::::::::::
-
-In alphabetical order, I thank:
-
-  *
-
-8 Links
-:::::::
-
-[1] ...
-
-9 Contact
-:::::::::
+# 5 Contact
 
 Feel free to give feedback. My e-mail address is shown if you execute this in
 a shell:
+```sh
+printf "\x6a\x6f\x68\x61\x6e\x6e\x65\x73\x40\x6c\x6f\
+\x72\x65\x6e\x7a\x2d\x68\x6f\x2e\x6d\x65\x0a"
+```
 
-  printf "\x6a\x6f\x68\x61\x6e\x6e\x65\x73\x40\x6c\x6f\
-  \x72\x65\x6e\x7a\x2d\x70\x72\x69\x76\x61\x74\x2e\x6e\x65\x74\x0a"
-
-
+# 6 Enclosed documents
+ * [FAQ](FAQ.md)
+ * [installation](INSTALL.md)
+ * [license](LICENSE.txt)
